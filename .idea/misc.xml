@@ -5,6 +5,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/design-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/seata-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/lbtransaction/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/lbtransaction-zhouyu/txmanager/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/seata-jarvis/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/lbtransaction-zhouyu/lbglobaltransaction/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/lbtransaction-zhouyu/server1/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/lbtransaction-zhouyu/server2/pom.xml" />
+        <option value="$PROJECT_DIR$/seata/lbtransaction-zhouyu/pom.xml" />
+        <option value="$PROJECT_DIR$/datasource-pool/pom.xml" />
       </list>
     </option>
   </component>

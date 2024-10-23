@@ -23,4 +23,12 @@
 18. canal实现mysql数据同步到redis、mysql、es等数据源案例；
 19. dubbo集成案例；
 20. spring常用注解、事件、接口、设计模式集成案例；
-21. 集成线程池案例
+21. ThreadPool 案例；
+    - 周瑜老师手写的分布式事务案例【lbtransaction-zhouyu】中，使用 threadLocal 控制所有数据库连接是创建原生connection还是自定义connection。① 对标记 @Lbtransactional 自定义分布式事务注解的方法，使用 LbTransactionAspect 切面进行创建 threadLocal 标记该方法使用自定义分布式事务；② 通过 LbDataSourceAspect 切面，对所有使用到 javax.sql.DataSource.getConnection 获取数据库连接的方法，判断 threadLocal 是否存在；③ 如果 threadLocal 不存在，则直接使用原生db连接 Connection；如果存在，则创建自定义分布式事务的db连接 LbConnection
+    - 
+22. ThreadLocal 用法案例；
+23. 集成netty案例；
+24. 各种 Lock 的使用方法案例；
+25. 多版本并发控制（MVCC）；
+26. 手写数据库连接池；
+27. 使用代码监测数据库性能指标；

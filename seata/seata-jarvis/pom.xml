@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zjstudio.seata</groupId>
-    <artifactId>seata-demo</artifactId>
+    <artifactId>seata-jarvis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>seata-demo</name>
     <description>seata-demo</description>
@@ -39,6 +39,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.9.19</version>
         </dependency>
     </dependencies>
 

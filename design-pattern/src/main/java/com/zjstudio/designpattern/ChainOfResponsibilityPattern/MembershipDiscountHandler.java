@@ -1,7 +1,12 @@
 package com.zjstudio.designpattern.ChainOfResponsibilityPattern;
 
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+@Order(100)
+@Component
 public class MembershipDiscountHandler extends DiscountHandler{
 
     @Override
